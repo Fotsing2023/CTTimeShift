@@ -1,0 +1,32 @@
+Package: CTTimeShift
+Type: Package
+Title: Inferring Time Shift in Camera Trap Data
+Version: 0.1.0
+Date: 2025-08-29
+Authors@R: c(person("Ernest Dadis Bush", "Fotsing", 
+                     role = c("aut", "cre"),
+                     email = "ernest.fotsing@unifr.ch"),
+             person("Daniel", "Wegmann",
+                     role = c("aut"),
+                     email = "daniel.wegmann@unifr.ch"),
+             person("Aimée", "Freiberg",
+                     role = "ctb")
+                          )
+Description: Packages to read camera trap images and extract color information as well as metadata).
+URL: https://bitbucket.org/wegmannlab/timeshift/wiki/Home
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+Imports:
+    stats,
+    exifr,
+    jpeg,
+RoxygenNote: 7.3.2
+Suggests: 
+  factoextra,
+  imager,
+  stringr,
+  dplyr,
+ 
+  
+  
